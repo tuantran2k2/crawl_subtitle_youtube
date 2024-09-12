@@ -76,7 +76,7 @@ def save_subtitles_to_json(video_id, title):
 # Giao diện người dùng với Streamlit
 st.title("Tải Phụ Đề cho Toàn Bộ Video Từ Kênh YouTube")
 
-channel_url = st.text_input("Nhập URL của kênh YouTube", "Tuan MekongAI")
+channel_url = st.text_input("Nhập URL của kênh YouTube", "title@@1")
 
 if st.button("Tải và Lưu Phụ Đề"):
     video_ids = get_video_ids_from_channel(channel_url)
